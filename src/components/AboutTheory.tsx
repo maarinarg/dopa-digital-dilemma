@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -6,14 +5,6 @@ const AboutTheory = () => {
   return (
     <div className="space-y-6">
       <h2 className="text-2xl font-bold mb-4">Marco Teórico</h2>
-      
-      <div className="flex justify-center mb-6">
-        <img 
-          src="/lovable-uploads/9122b46b-d937-4493-9247-5e06e111fd33.png" 
-          alt="Cerebro con conexiones neuronales iluminadas" 
-          className="rounded-lg shadow-lg max-h-[200px]"
-        />
-      </div>
       
       <Tabs defaultValue="fogg">
         <TabsList className="grid w-full grid-cols-3">
