@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Header from "@/components/Header";
@@ -48,7 +47,7 @@ const Index = () => {
                 "El mejor control es el que no se percibe como control." — Inspirado en Maquiavelo
               </blockquote>
               
-              <p>Al igual que en <em>El Príncipe</em> de Maquiavelo, las aplicaciones modernas a menudo buscan no solo satisfacer necesidades, sino también manipular comportamientos de forma que el usuario no percibe.</p>
+              <p>Al igual que en <em>El Príncipe</em> de Maquiavelo, las aplicaciones modernas a menudo buscan no solo satisfacer necesidades, sino también manipular comportamientos de forma que el usuario no perciba.</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -74,9 +73,7 @@ const Index = () => {
             </div>
           </TabsContent>
         </Tabs>
-        {/* Bloques informativos al final, anclados */}
         <section className="mt-16 space-y-8 mb-12">
-          {/* SOBRE EL PROYECTO */}
           <div
             id="sobre-proyecto"
             className="neumor-card glass rounded-2xl p-8 shadow-lg border-0 animate-fade-in"
@@ -99,21 +96,13 @@ const Index = () => {
               </li>
             </ul>
           </div>
-          {/* RECURSOS */}
+          
           <div
             id="recursos"
             className="neumor-card glass rounded-2xl p-8 shadow-lg border-0 animate-fade-in bg-accent/60"
           >
             <h2 className="text-2xl font-bold mb-3 text-primary">Recursos</h2>
             <ul className="list-disc pl-6 text-base mb-3">
-              <li>
-                <a
-                  href="https://es.bjfogg.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:text-primary transition-colors"
-                >Modelo de Fogg - Behavioral Design</a>
-              </li>
               <li>
                 <a
                   href="https://www.hookedmodel.com/"
@@ -140,7 +129,7 @@ const Index = () => {
               </li>
               <li>
                 <a
-                  href="https://www.netflix.com/title/81254224"
+                  href="https://www.netflix.com/titles/81254224"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-primary transition-colors"
@@ -151,7 +140,7 @@ const Index = () => {
               Si quieres profundizar más, te recomendamos explorar <strong>libros, documentales y artículos científicos</strong> citados y enlazados anteriormente.
             </div>
           </div>
-          {/* CONTACTO */}
+          
           <div
             id="contacto"
             className="neumor-card glass rounded-2xl p-8 shadow-lg border-0 animate-fade-in bg-secondary/60"
@@ -168,26 +157,8 @@ const Index = () => {
               </span>
             </p>
             <p className="text-md text-muted-foreground">
-              También puedes seguir el proyecto en redes sociales para actualizaciones y futuros desarrollos.
+              Estamos abiertos a tu retroalimentación y colaboración.
             </p>
-            <div className="flex mt-4 space-x-4">
-              <a
-                href="https://twitter.com/intent/follow?screen_name=lovable_dev"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-primary"
-              >
-                Twitter/X
-              </a>
-              <a
-                href="https://discord.gg/URhQyFjuqu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-primary"
-              >
-                Discord
-              </a>
-            </div>
           </div>
         </section>
       </main>
