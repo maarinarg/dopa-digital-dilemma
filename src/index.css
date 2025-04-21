@@ -103,3 +103,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .glass {
+    @apply bg-white/60 backdrop-blur-xl border border-white/20 shadow-lg;
+  }
+  .neumor-card {
+    box-shadow: 10px 10px 24px #ede7fa, -10px -10px 24px #fff;
+    border-radius: 1.7rem;
+    @apply border-0;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-purple-400 text-transparent bg-clip-text;
+  }
+}
